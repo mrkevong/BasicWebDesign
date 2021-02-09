@@ -2,3 +2,4 @@
 
 <h1>My Web Projects</h1>
 <a href="basic web desgn/index.html"> Lab 1 - Hello World<a>
+<a href="lab 2/index.html"> Lab 2 - Basic HTML Structure<a>
