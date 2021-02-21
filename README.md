@@ -4,7 +4,7 @@
 <ul> 
 <li> <a href="basic web desgn/index.html"> Lab 1 - Hello World<a></li>
 <li><a href="lab 2/index.html"> Lab 2 - Basic HTML Structure<a></li>
-</ul
+<li><a href="lab 3/index.html"> Lab 3 - Basic HTML and HTML Semantics<a></li>
+</ul>
 
 
->
