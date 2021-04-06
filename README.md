@@ -9,5 +9,6 @@
 <li><a href="midterm/index.html"> Mid-Term Project<a></li>
 <li><a href="lab 5/index.html"> Lab 5 - Responsive Design for Mobile<a></li>
 <li><a href="lab 6/index.html"> Lab 6 - Responsive Design for Tablet and Desktop<a><li>
+<li><a href="lab 7/index.html"> Lab 7 - Random Audio, Video and a Table<a><li>
 
 </ul>
