@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Demo</title>
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="dist/slicknav.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="dist/css/lightbox.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<script src="dist/jquery.slicknav.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="js/zenscroll-min.js"></script>
+	<script src="dist/js/lightbox.min.js"></script>
+	<script>
+		$(function(){
+			$('#menu').slicknav();
+			$('.slider').bxSlider();
+			$( "#accordion" ).accordion();
+			$( "#tabs" ).tabs();
+		});
+	</script>
+</head>
+
+<body id="top">
+	<div id="container">
+		<header>
+			<h1>Apple Iphone 12</h1>
+		</header>
+
+		<nav>
+			<ul id="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#main">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section>
+				<article>
+					<div class="slider">
+						<div><img src="images/iphone12pro1.jpg" alt="iphone 12 pro"></div>
+						<div><img src="images/iphone12pro2.jpg" alt="iphone 12 pro 2"></div>
+					  </div>
+					<h2 id="main">Main Content</h2>
+					<p>The Apple Iphone 12 comes with 5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. 
+						And Night mode on every camera. iPhone 12 has it all — in two perfect sizes.</p>
+						<a href="images/multiple iphones.jpg" data-lightbox="image 1"data-title="multiple">
+							<img src="images/multiple iphones.jpg" alt=""></a>
+						<div id="accordion">
+							<h3>Section 1</h3>
+							<div>
+							  <p>
+								The iPhone 12 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is
+								 6.06 inches diagonally (actual viewable area is less).
+							  </p>
+							</div>
+							<h3>Section 2</h3>
+							<div>
+							  <p>
+								Dual 12MP camera system: Ultra Wide and Wide cameras
+								Ultra Wide: ƒ/2.4 aperture and 120° field of view
+								Wide: ƒ/1.6 aperture
+								2x optical zoom out
+								Digital zoom up to 5x
+							  </p>
+							</div>
+							<h3>Section 3</h3>
+							<div>
+							  <p>
+								1200 nits max brightness (HDR)
+								Fingerprint-resistant oleophobic coating
+								Support for display of multiple languages and characters simultaneously
+							  </p>
+							  <ul>
+								<li>HDR display</li>
+								<li>True Tone</li>
+								<li>Haptic Touch</li>
+							  </ul>
+							</div>
+							<h3>Section 4</h3>
+							<div>
+							  <p>
+								The iPhone 12 has several new features and updates to push the device even further 
+								— a new design, new colors, better cameras, and a better processor. Apple positioned the latest lineup as "iPhone for everyone," with the most significant screen size variation and color ever in its history.
+							  </p>
+							  <p>
+								Apple continues its glass-sandwich design with an aluminum band wrapped around the device. The sides are now flat, similar to the iPad Pro redesign, 
+								but more reminiscent of the iPhone 4.
+							  </p>
+							</div>
+						  </div>
+						  <a class="button" href="#top">Back to The Top</a>
+
+
+				</article>
+					
+				<div class="feature">
+					<h3 id="Portfolio">Different Types of Iphones</h3>
+					<div class="projects">
+						<a href="images/man on phone.jpg" data-lightbox="Portfolio" 
+						data-title="random">
+						<img src="images/man on phone.jpg" alt="">
+					</a>
+						<div id="tabs">
+							<ul>
+							  <li><a href="#tabs-1">Iphone 12</a></li>
+							  <li><a href="#tabs-2">Iphone 12 Max</a></li>
+							  <li><a href="#tabs-3">Iphone 12 Mini</a></li>
+							</ul>
+							<div id="tabs-1">
+							  <p>The iPhone 12 can shoot video in HDR with Dolby Vision grading, the first for any smartphone. Recording in 4K HDR with Dolby Vision will allow filmmakers to create a video that has never been possible on an iPhone before. Apple touts the fact that you can record, edit, view, and share Dolby Vision content all on the same device.</p>
+							</div>
+							<div id="tabs-2">
+							  <p>If you’re looking for the best iPhone on the market, the iPhone 12 Pro Max is it: it’s powerful, has the longest battery life on an iPhone we’ve tested in 2020 and the camera is top-notch. You'll need to be ready to carry the extra heft, as this is also the biggest iPhone of all time, and the cost isn't to be sniffed at, but we're adding an extra half star for all those iPhone fans that just want the best Apple can bring – the iPhone 12 Pro Max manages to do that rather well.</p>
+							</div>
+							<div id="tabs-3">
+							  <p>The iPhone 12 mini is built for those who have been dreaming of a small phone but don’t want to compromise on quality, and Apple has done an exceedingly good job at making that a reality. It isn’t perfect, with middling battery life and a high price for just 64GB of storage, but if you can put those negatives aside you’ll love what the iPhone 12 mini can do in its miniature package. The camera is versatile, the screen is fantastic, it comes with reams of power and the added benefits of 5G and MagSafe mean this is a phone that will last you for years to come.</p>
+							</div>
+						  </div>
+						  <a href="images/mask.jpg" data-lightbox="Portfolio" 
+						data-title="random">
+						<img src="images/mask.jpg" alt="">
+						<a href="images/2 iphones.jpg" data-lightbox="Portfolio" 
+						data-title="random">
+						<img src="images/2 iphones.jpg" alt="">
+					</div>
+				</div>
+				<aside id="contact">
+					<h3>Contact Information</h3>
+					<h4>Kevon Garrett</h4>
+					<ul>
+						<li><a href="#">Email Me</a></li>
+						<li><a href="555-555-5555">Call Me</a></li>
+					</ul>
+				</aside>
+			</section>
+		</main>
+		<footer>&copy; 2021 jQuery Demo - Lab 8</footer>
+	</div>
+</body>
+
+</html>
