@@ -11,4 +11,5 @@
 <li><a href="lab 6/index.html"> Lab 6 - Responsive Design for Tablet and Desktop<a><li>
 <li><a href="lab 7/index.html"> Lab 7 - Random Audio, Video and a Table<a><li>
 <li><a href="lab 8/index.html"> Lab 8 - jQuery Demo Files<a><li>
+<li><a href="final/index.html"> Final - Final<a><li>
 </ul>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World of MLB</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="stylsheet" href="dist/css/lightbox.css">
+    <link rel="shortcut icon" href="images/android-chrome-192x192.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Unlock&display=swap" type="image/png">
+    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+
+    <style>
+        table {
+            width: auto;
+            border: 2px solid black;
+            overflow-x: scroll;
+        }
+
+        tr, td, th {
+            border: 4px solid black;
+            padding: 5px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+        }
+
+        section {
+            width: auto;
+            border: 2px solid black;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        h1, p {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        @media only screen and (min-width: 1360px) {
+            main{
+                flex-direction: row;
+            }
+            section {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>The World of Major League Baseball</h1>
+            </header>
+            <nav>
+
+                <ul>
+
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="players.html">Players</a></li>
+                    <li><a href="allstars.html">All Stars</a></li>
+                    <li><a href="rules.html">Rules of The Game</a></li>
+        
+                </ul>
+      </nav>
+      <main>
+          <h2>Major League Baseball Players</h2>
+
+          <a href="images/hank.jpg"><img src="images/Hank.jpg" alt=Hank></a>
+
+    
+
+          <table>
+
+            <tr>
+                <th>Hank Aaron</th>
+                <th>Babe Ruth</th>
+                <th>Jose Canseco</th>
+                <th>Barry Bonds</th>
+                <th>Ty Cobb</th>
+            </tr>
+
+            <tr>
+                <td>Walter Johnson</td>
+                <td>Ted Williams</td>
+                <td>Willie Mays</td>
+                <td>Gaylord Perry</td>
+                <td>Ozzie Smith</td>
+            </tr>
+
+            <tr>
+                <td>Wade Boggs</td>
+                <td>Rollie Fingers</td>
+                <td>Ken Griffey Jr</td>
+                <td>Goose Goslin</td>
+                <td>Yogi Berra</td>
+
+            </tr>
+
+          </table>
+
+         
+         
+      </main>
+
+      <footer>
+        &copy; 2021 Final - The World of Major League Baseball
+    </footer>
+
+</body>
+</html>
